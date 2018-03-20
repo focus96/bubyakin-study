@@ -1,0 +1,19 @@
+{
+    "name": "evgeny/bubyakin-study",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tarasenko Evgeniy",
+            "email": "tjm-photo@mail.ru"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
